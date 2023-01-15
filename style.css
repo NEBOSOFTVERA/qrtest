@@ -4,18 +4,68 @@ div.gallery {
     float: left;
     width: 300px;
     height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    
   }
   
   div.gallery:hover {
     border: 1px solid #777;
   }
   
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
+ 
   
   div.desc {
     padding: 15px;
     text-align: center;
+    
+  }
+  a{
+    font-size: 40px;
+  }
+  .youtube:hover {
+    color: red;
+  }
+  .fa-youtube{
+    color: red;
+  }
+  .fa-youtube:hover {
+    color:white;
+  }
+  .fa-instagram {
+    color: #bc1888;
+  }
+  .instagram:hover {
+    background: #f09433; 
+   background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+   background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+   background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+   
+
+  }
+  .fa-instagram:hover {
+    color:white;
+  }
+  .twitter:hover {
+    background-color:rgb(11, 202, 255) ;
+  }
+  .fa-twitter {
+    color: rgb(11, 202, 255);
+  }
+  .fa-twitter:hover{
+    color: white;
+  }
+  .facebook:hover {
+    background-color: rgb(39, 39, 255);
+  }
+  .fa-facebook-f {
+    color: rgb(39, 39, 255);
+    
+  }
+  .fa-facebook-f:hover {
+    color: white;
+  }
+  .youtube:hover {
+    background: red;
+    color: white;
   }
